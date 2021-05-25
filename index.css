@@ -1,0 +1,29 @@
+html, body {
+  margin: 10px;
+  padding: 10px;
+  background: orange;
+}
+
+.middle {
+
+  margin: 0 auto;
+  width: 25%;
+}
+
+.grid {
+  display: flex;  /* oluşturulan kareleridiğer satırlara dağıt */
+  flex-wrap: wrap; /* tüm kareleri div e dağıt */
+  width: 200px;
+  height: 200px;
+  border: 2px black solid;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  /* background-color: blue;:  */
+}
+
+.snake {
+  background-color: green;
+}
